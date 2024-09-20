@@ -1,5 +1,6 @@
 from main import read_csv, get_descriptive_stats, get_histogram, get_line_graph
-import pandas as pd
+import polars as po
+
 
 file_path = "Health_Sleep_Statistics.csv"
 
@@ -7,7 +8,7 @@ file_path = "Health_Sleep_Statistics.csv"
 def test_main():
     df = read_csv(file_path)
 
-    assert isinstance(df, pd.DataFrame)
+    assert isinstance(df, po.dataframe.frame.DataFrame)
     assert df.shape[0] == 100
     assert not df.empty
 
