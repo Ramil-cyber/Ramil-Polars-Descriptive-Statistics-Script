@@ -15,10 +15,10 @@ This project contains a Python script that uses Polars to compute descriptive st
 ## Visualizations
 
 - **Histogram**:  
-  ![Histogram](https://github.com/nogibjj/Polars-Descriptive-Statistics-Script/blob/4daf327710fc9b849e142af95d1b94046d25c059/image/histogram.png)
+  ![Histogram](https://github.com/nogibjj/Ramil-Polars-Descriptive-Statistics-Script/blob/7e4e45c57d52528c90a6feeb3770f8985f6bb73c/image/histogram.png)
   
 - **Line Graph**:  
-  ![Line Graph](https://github.com/nogibjj/Polars-Descriptive-Statistics-Script/blob/4daf327710fc9b849e142af95d1b94046d25c059/image/linegraph.png)
+  ![Line Graph](https://github.com/nogibjj/Ramil-Polars-Descriptive-Statistics-Script/blob/7e4e45c57d52528c90a6feeb3770f8985f6bb73c/image/linegraph.png)
 
 
 
@@ -26,22 +26,23 @@ This project contains a Python script that uses Polars to compute descriptive st
 ## Summary Statistics Report
 
 You can view the detailed summary statistics report generated in PDF format here:
-- [Summary Statistics Report (PDF)](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/70640a6208f36e5eefc99eb1a5544ae82d2f1eb4/Summary-Statistics.pdf)
+- [Summary Statistics Report (PDF)](https://github.com/nogibjj/Polars-Descriptive-Statistics-Script/blob/7e4e45c57d52528c90a6feeb3770f8985f6bb73c/Summary-Statistics.pdf)
 
 
 ## Requirements
 
 - Python 3.x
-- Pandas
+- Polars
 - Matplotlib or Seaborn (for visualization)
 - pytest (for testing)
+- pylint for linting
 
 ## Setup Instructions
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script
-    cd Ramil-Pandas-Descriptive-Statistics-Script
+    git clone https://github.com/nogibjj/Ramil-Polars-Descriptive-Statistics-Script.git
+    cd Ramil-Polars-Descriptive-Statistics-Script
     ```
 
 2. **Install required dependencies**:
