@@ -1,4 +1,4 @@
-# Descriptive Statistics Script with Pandas
+# Descriptive Statistics Script with Polars
 
 This project contains a Python script that uses Polars to compute descriptive statistics for a dataset and generate data visualizations. The script reads data from a CSV or Excel file and provides key summary statistics such as the mean, median, and standard deviation.
 
@@ -9,7 +9,7 @@ This project contains a Python script that uses Polars to compute descriptive st
   - Mean
   - Median
   - Standard Deviation
-- Produces at least one data visualization (e.g., histogram, boxplot, etc.).
+- Produces at least one data visualization (e.g., histogram, line graph, etc.).
 - Continuous Integration/Continuous Deployment (CI/CD) pipeline integrated with a build status badge.
 
 ## Visualizations
