@@ -1,6 +1,6 @@
 # Descriptive Statistics Script with Pandas
 
-This project contains a Python script that uses Pandas to compute descriptive statistics for a dataset and generate data visualizations. The script reads data from a CSV or Excel file and provides key summary statistics such as the mean, median, and standard deviation.
+This project contains a Python script that uses Polars to compute descriptive statistics for a dataset and generate data visualizations. The script reads data from a CSV or Excel file and provides key summary statistics such as the mean, median, and standard deviation.
 
 ## Features
 
@@ -15,10 +15,10 @@ This project contains a Python script that uses Pandas to compute descriptive st
 ## Visualizations
 
 - **Histogram**:  
-  ![Histogram](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/d74cda0b22c4c8af5769c23a238e6abf22bbbb0f/image/histogram.png)
+  ![Histogram](https://github.com/nogibjj/Polars-Descriptive-Statistics-Script/blob/4daf327710fc9b849e142af95d1b94046d25c059/image/histogram.png)
   
 - **Line Graph**:  
-  ![Line Graph](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/d74cda0b22c4c8af5769c23a238e6abf22bbbb0f/image/linegraph.png)
+  ![Line Graph](https://github.com/nogibjj/Polars-Descriptive-Statistics-Script/blob/4daf327710fc9b849e142af95d1b94046d25c059/image/linegraph.png)
 
 
 
