@@ -10,7 +10,7 @@ def test_main():
 
     assert isinstance(df, po.dataframe.frame.DataFrame)
     assert df.shape[0] == 100
-    assert not df.empty
+    assert df.shape[0] != 0
 
     # Check if all required columns are present
     expected_columns = [
@@ -29,9 +29,13 @@ def test_main():
     ]
     assert all(column in df.columns for column in expected_columns)
     # Check if 'Age' is within a realistic range
-    assert df["Age"].between(0, 120).all()
+    assert df["Age"].is_between(0, 120).all()
     # Check if 'Sleep Quality' is between 1 and 10
-    assert df["Sleep Quality"].between(1, 10).all()
+    assert df["Sleep Quality"].is_between(1, 10).all()
     # Check for missing values in required columns
     required_columns = ["User ID", "Age", "Gender", "Sleep Quality"]
-    assert df[required_columns].notnull().all().all()
+    assert (
+        df.select([po.col(col).is_not_null().all() for col in required_columns])
+        .to_series()
+        .all()
+    )
