@@ -23,6 +23,9 @@ jobs:
 
       - name: Create environment 
         run: make setup
+      
+      - name: Format code
+        run : make format
 
       - name: Lint the code
         run: make lint

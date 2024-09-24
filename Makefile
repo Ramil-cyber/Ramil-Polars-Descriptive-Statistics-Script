@@ -6,3 +6,6 @@ lint:
 
 test:
 	pytest
+
+format:
+	black main.py

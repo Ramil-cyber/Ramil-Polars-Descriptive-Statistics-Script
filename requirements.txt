@@ -15,3 +15,4 @@ tzdata==2024.1
 pytest==8.3.3
 pylint==3.2.7
 polars==0.20.21
+black==24.8.0
