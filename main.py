@@ -30,7 +30,7 @@ def get_histogram(dataframe, col):
     plt.title(f"Histogram of {col}")
     plt.xlabel("Values")
     plt.ylabel("Frequency")
-    plt.show()
+    # plt.show()
     return True
 
 
@@ -47,5 +47,5 @@ def get_line_graph(dataframe, x_col, y_col):
     plt.xlabel(x_col)
     plt.ylabel(y_col)
 
-    plt.show()
+    # plt.show()
     return True
